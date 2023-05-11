@@ -11,4 +11,5 @@ d = (b ** 2) - (4 * a * c)
 # find two solutions
 sol1 = (-b - cmath.sqrt(d)) / (2 * a)
 sol2 = (-b + cmath.sqrt(d)) / (2 * a)
+#here is where the output is going to be printed
 print('The solution are {0} and {1}'.format(sol1, sol2))
